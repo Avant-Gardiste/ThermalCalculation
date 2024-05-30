@@ -1,1 +1,1 @@
-#Solar Factor Calculation 
+# Thermal calculations
