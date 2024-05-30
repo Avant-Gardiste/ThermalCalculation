@@ -1,0 +1,13 @@
+#ifndef SOLARFACTORXPP50_GLOBAL_H
+#define SOLARFACTORXPP50_GLOBAL_H
+
+#ifdef _WIN32
+#if defined(SOLARFACTORXPP50_LIBRARY)
+#  define SOLARFACTORXPP50SHARED_EXPORT __declspec(dllexport)
+#else
+#  define SOLARFACTORXPP50SHARED_EXPORT __declspec(dllimport)
+#endif
+#else
+#  define SOLARFACTORXPP50SHARED_EXPORT
+#endif
+#endif // SOLARFACTORXPP50_GLOBAL_H
